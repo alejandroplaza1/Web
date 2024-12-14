@@ -1,0 +1,127 @@
+@keyframes button-hover {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #ff6600;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav input[type=search] {
+  margin-left: auto;
+  padding: 5px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+main .profile-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+main .profile-section h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+main .projects-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+main .projects-section h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+main .friends-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+main .friends-section h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+main .donations-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+main .donations-section h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.user-profile {
+  text-align: center;
+}
+.user-profile .profile-pic {
+  background-color: #ccc;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.friends-list {
+  list-style: none;
+}
+.friends-list li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: rgb(25.5, 25.5, 25.5);
+  animation: button-hover 0.3s ease-in-out;
+}
+
+footer {
+  background-color: #ff6600;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
